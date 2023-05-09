@@ -19,3 +19,4 @@ Your instructions for this assignment are short and simple:
 - The data comes already split into training, test, and validation datasets. You can use these in a ```TensorFlow``` data generator pipeline like we saw in class this week - you can see an example of that [here](https://stackoverflow.com/questions/42443936/keras-split-train-test-set-when-using-imagedatagenerator).
 - There are a lot of images, around 106k in total. Make sure to reserve enough time for running your code!
 - The image labels are in the metadata folder, stored as JSON files. These can be read into ```pandas``` using ```read_json()```. You can find the documentation for that online.
+
