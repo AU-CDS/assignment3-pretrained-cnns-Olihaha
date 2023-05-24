@@ -1,3 +1,13 @@
+
+# dataset
+images/*
+images/test
+images/train
+images/val
+images/test_data.json
+images/train_data.json
+images/val_data.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

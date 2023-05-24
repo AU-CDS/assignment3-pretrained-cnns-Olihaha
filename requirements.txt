@@ -5,3 +5,5 @@ matplotlib
 scikit-learn
 tensorflow-cpu
 tensorflow-hub
+opencv-python
+seaborn

@@ -1,18 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
-# create virtual environment
-#python3 -m venv my_venv
-
-# activate virtual environment
-#source my_venv/bin/activate
-
-# install dependencies
-pip install -r /work/cds-viz/vis-data/indo_fashion/requirements.txt
-
-# run your code or commands
-#python /work/indo_fashion/samplescript.py
-
-# deactivate virtual environment
-#deactivate
-
+sudo apt-get update -y
+sudo apt-get install python3-venv -y
+python3 -m venv env
+source ./env/bin/activate
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+deactivate
 
